@@ -1,0 +1,70 @@
+html,body,.firstHead, #intro{
+	height: 100%;
+}
+#intro{
+	background: url(../img/intro.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.top-nav-collapse{
+	background-color: /*#24325C;*/ #000;
+}
+
+@media (max-width: 768px){
+	.navbar:not(.top-nav-collapse){
+		background: #000;
+	}
+}
+#nodes{
+	background: url(../img/bg1.png)  no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.card-img-top{
+	border-top-left-radius: 29px;
+	border-top-right-radius: 29px;
+	padding: 5px;
+}
+.rad{
+	border-radius: 30px;
+}
+.bg{
+	background: url(../img/bg/11.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+.wdth{
+	width: 100%;
+	height: auto;
+}
+
+.bgclr{
+	background-color: #eeeeee;
+}
+
+/*QUESTIONS STYLE*/
+.secondHead{
+	height: 50%;
+}
+
+#intro2{
+	background: url(../img/intro2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+#questions{
+	background: url(../img/intro2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.fontclr{
+	color: #4c4c4c;
+
+}
+.hclr{
+	color: #4c4c4c;
+	font-weight: bold;
+}
