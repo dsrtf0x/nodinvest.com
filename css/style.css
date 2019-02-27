@@ -9,10 +9,19 @@ html,body,.firstHead, #intro{
 .top-nav-collapse{
 	background-color: /*#24325C;*/ #000;
 }
-
+.disp{
+	font-size: 3.5rem;
+	line-height: 1.2;
+}
 @media (max-width: 768px){
 	.navbar:not(.top-nav-collapse){
 		background: #000;
+	}
+}
+@media handheld{
+	.disp{
+		font-size: 2.5rem;
+		line-height: 1.2;
 	}
 }
 #nodes{
